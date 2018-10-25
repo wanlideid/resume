@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/registers.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body class="bg-white">
+<iframe src="head.html" frameborder="0" class="my_header"></iframe>
+  <div class="my_registers">
+      <form action="">
+          <div>
+              <input type="text" placeholder="用户名" >
+              <p>用户名至少6个字符，最多12个字符</p>
+          </div>
+          <div>
+              <input type="text" placeholder="手机号码">
+              <p>手机号长度为11个字符</p>
+          </div>
+          <div>
+              <input type="password" placeholder="密码">
+              <p>长度为6-16个字符，区分大小写</p>
+          </div>
+          <div>
+              <input type="password" placeholder="确认密码">
+              <p>长度为6-16个字符，区分大小写</p>
+          </div>
+          <div class="m_left">
+              <input type="text" placeholder="验证码" class="my_width ">
+          </div>
+          <div class="m_left mt-2 ml-1">
+              <img src="img/1.jpg" alt="1" class="my_img">
+              <script>
+                  $("img").on("click",function () {
+                      var $img=$(this);
+                      var i=parseInt($img.attr("alt"))
+                      i++;
+                      if(i>4) i=1;
+                      $img.attr({
+                          "src":`img/${i}.jpg`,
+                          "alt":i
+                      })
+                  })
+              </script>
+          </div>
+          <div class="mb-3 mt-5">
+              <button class="my_button">注册</button>
+          </div>
+          <div >
+              <span class=" my_color my_small">点击“注册”，即表示您同意并愿意遵守1MORE </span>
+              <a href="" class="my_hover my_small">用户协议</a></div>
+          <div class="mt-3 mb-4 my_right">
+              <span class="my_small">已有1More帐号？</span>
+              <a href="" class="my_zc my_small ">立即登录</a></div>
+      </form>
+  </div>
+<iframe src="footer.html" frameborder="0" class="my_footer"></iframe>
+<script src="js/jquery-1.11.3.js"></script>
+</body>
+</html>

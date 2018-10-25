@@ -1,0 +1,35 @@
+#my_lv{
+    width: 370px;
+    margin: 100px auto 230px;
+}
+
+.my_margin{
+    position: relative;
+    top:100px;
+    width: 100%;
+}
+
+
+.m_small{
+    font-size: 2px;
+    color:black;
+}
+.m_hover:hover{
+    color:black;
+    text-decoration: none;
+}
+.my_top{
+    height: 400px;
+}
+.my_bottom{
+    height: 560px;
+}
+
+img{
+    color:#444 !important;
+}
+.my_position{
+    position: relative;
+    top:-18px;
+}
+

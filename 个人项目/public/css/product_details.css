@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.my_product{
+    width: 403px;
+    height: 554px;
+    border: 1px solid #DBDBDB;
+}
+.my_size{
+    font-size: 18px;
+}
+.my_price{
+    color: #F04D37;
+    font-size: 20px;
+}
+.my_mt{
+    margin-top: 30px;
+}
+.my_fr{
+    float: right;
+    clear: both;
+}
+.my_fl{
+    float: left;
+}
+.my_ml{
+    margin-left: 70px;
+}

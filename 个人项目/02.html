@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title> new document </title>
+ </head>
+ <body>
+   用户名称：<input type="text" id="uname" onfocus="h1()" onblur="h2()"> 
+   <span id="d1"></span> <br>
+   密码名称：<input type="password" id="upwd" > 
+   <span id="d2"></span> <br>
+   重复密码：<input type="password" id="cpwd" onblur="h3()"> 
+   <span id="d3"></span> <br>
+   <script src="common.js"></script>
+   <script>
+     function h1(){
+	   $('d1').innerHTML='请输入6-12用户名称'
+	 }
+	 function h2(){
+	   var uname=$('uname').value;
+       if(!uname){
+	     $('d1').innerHTML="用户名称不能为空";
+	   }else{
+	     $('d1').innerHTML='通过';
+	   }
+	 }
+	 function h3(){
+	   var upwd=$('upwd').value;
+	   var cpwd=$('cpwd').value;
+	    if(cpwd!=''){
+		if(upwd==cpwd){
+	     $('d3').innerHTML="密码一致";
+	   }else{
+	     $('d3').innerHTML="密码不一致";
+	   }  
+	  }else{
+	     $('d2').innerHTML="密码不能为空";
+	   }
+	 }
+   </script>
+ </body>
+</html>

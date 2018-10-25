@@ -1,0 +1,27 @@
+.my_registers{
+    width: 370px;
+    margin: 100px auto 160px;
+}
+p{
+    color:#9D9D9D;
+    font-size: 15px;
+    margin-left: 2px;
+}
+.my_color{
+    color:#9D9D9D;
+}
+.my_hover{
+    color:black;
+}
+.my_hover:hover{
+    color: black;
+}
+.my_width{
+    width: 254px;
+}
+.m_left{
+    float: left;
+}
+.my_img{
+    cursor: pointer;
+}

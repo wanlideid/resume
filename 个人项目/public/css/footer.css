@@ -1,0 +1,47 @@
+#footer{
+    background: #E8E8E8;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+@media screen and (min-width:992px){
+    #footer>div{
+        width: 992px;
+        margin: 0 auto;
+    }
+}
+.my_ml{
+    margin-left:100px;
+}
+.my_color{
+    background: #FF5138;
+}
+.my_size{
+    font-size: 12px;
+    color: #433434;
+}
+.my_gray{
+    color:#777;
+}
+.my_pr{
+    padding-right: 120px;
+}
+.my_control{
+    display: block;
+    width: 176px;
+    height: 40px;
+    padding-left:14px;
+    font-size: 1rem;
+    line-height: 58px;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+.my_cursor{
+    cursor: pointer;
+}
+
+
+
