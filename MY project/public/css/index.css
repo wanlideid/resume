@@ -1,0 +1,15 @@
+.carousel-indicators li{
+    position: relative;
+    /*flex: 0 1 auto;*/
+    width: 10px !important;
+    height: 10px !important;
+    margin-right: 3px;
+    margin-left: 3px;
+    border-radius: 50% !important;
+}
+.my_bodyer{
+    position: relative;
+    top:-6px;
+    left:0;
+}
+
